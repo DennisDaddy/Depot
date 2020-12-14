@@ -1,4 +1,5 @@
 require "application_system_test_case"
+include ActiveJob::TestHelper
 
 class OrdersTest < ApplicationSystemTestCase
   setup do
